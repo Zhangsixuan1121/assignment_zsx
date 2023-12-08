@@ -23,7 +23,7 @@ def city(name):
         reader = csv.DictReader(f)
         for row in reader:
             if row['city'] == name:
-                return render_template('city_information.html', **row)
+                return render_template('city.html', **row)
         return "City not found", 404
 
 def get_data():
