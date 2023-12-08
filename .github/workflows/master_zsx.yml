@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'zsx'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AC8F7E6DF7E347BA8CEF3571629ED61F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0CFF4189A509479DA8FBAB7A5AA045EE }}
