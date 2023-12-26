@@ -2,14 +2,69 @@
 <html>
 <head>
     <title>Zhang Sixuan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
-    <h1>city information</h1>
-    <h1>{{ city }}</h1>
-    <p>Latitude: {{ lat }}</p>
-    <p>Longitude: {{ lng }}</p>
-    <p>Country: {{ country }}</p>
-    <p>State: {{ state }}</p>
-    <p>Population: {{ population }}</p>
+    <h1>City Information</h1>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>{{ city }}</td>
+        </tr>
+        <tr>
+            <td>Latitude</td>
+            <td>{{ lat }}</td>
+        </tr>
+        <tr>
+            <td>Longitude</td>
+            <td>{{ lng }}</td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>{{ country }}</td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>{{ state }}</td>
+        </tr>
+        <tr>
+            <td>Population</td>
+            <td>{{ population }}</td>
+        </tr>
+    </table>
 </body>
 </html>
+
